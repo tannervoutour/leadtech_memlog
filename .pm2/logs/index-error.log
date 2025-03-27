@@ -1,0 +1,73 @@
+AuthenticationError: 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************eQsA. You can find your API key at https://platform.openai.com/account/api-keys.
+    at APIError.generate (/home/ec2-user/anything-llm/server/node_modules/openai/error.js:48:20)
+    at OpenAI.makeStatusError (/home/ec2-user/anything-llm/server/node_modules/openai/core.js:263:33)
+    at OpenAI.makeRequest (/home/ec2-user/anything-llm/server/node_modules/openai/core.js:306:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LLMPerformanceMonitor.measureStream (/home/ec2-user/anything-llm/server/utils/helpers/chat/LLMPerformanceMonitor.js:67:20)
+    at async OpenAiLLM.streamGetChatCompletion (/home/ec2-user/anything-llm/server/utils/AiProviders/openAi/index.js:175:35)
+    at async streamChatWithWorkspace (/home/ec2-user/anything-llm/server/utils/chats/stream.js:248:20)
+    at async /home/ec2-user/anything-llm/server/endpoints/chat.js:62:9 {
+  status: 401,
+  headers: {
+    'alt-svc': 'h3=":443"; ma=86400',
+    'cf-cache-status': 'DYNAMIC',
+    'cf-ray': '90b1ba109a035b6a-IAD',
+    connection: 'keep-alive',
+    'content-length': '414',
+    'content-type': 'application/json; charset=utf-8',
+    date: 'Sat, 01 Feb 2025 11:50:57 GMT',
+    server: 'cloudflare',
+    'set-cookie': '__cf_bm=ToJFEN79ADw13tPUFEu7xzv_UdFB1k2AKLbPWzVTaI8-1738410657-1.0.1.1-MkyNLlcnuGkjvD9aMoC.HhxHZ7lvBclznLhHQMoqopzSo8Dk.SWO4sB_VmpyyQu6rRfCnMjqxmfsi4q0O6Dwlg; path=/; expires=Sat, 01-Feb-25 12:20:57 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=dZ7KJqPoe_V37bd5pc6zt.KaY_HK0jZYkvplplHWDAo-1738410657446-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-request-id': 'req_cadd7e91f49a89fe2a955f9e242735f5'
+  },
+  request_id: 'req_cadd7e91f49a89fe2a955f9e242735f5',
+  error: {
+    message: 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************eQsA. You can find your API key at https://platform.openai.com/account/api-keys.',
+    type: 'invalid_request_error',
+    param: null,
+    code: 'invalid_api_key'
+  },
+  code: 'invalid_api_key',
+  param: null,
+  type: 'invalid_request_error'
+}
+AuthenticationError: 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************eQsA. You can find your API key at https://platform.openai.com/account/api-keys.
+    at APIError.generate (/home/ec2-user/anything-llm/server/node_modules/openai/error.js:48:20)
+    at OpenAI.makeStatusError (/home/ec2-user/anything-llm/server/node_modules/openai/core.js:263:33)
+    at OpenAI.makeRequest (/home/ec2-user/anything-llm/server/node_modules/openai/core.js:306:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async LLMPerformanceMonitor.measureStream (/home/ec2-user/anything-llm/server/utils/helpers/chat/LLMPerformanceMonitor.js:67:20)
+    at async OpenAiLLM.streamGetChatCompletion (/home/ec2-user/anything-llm/server/utils/AiProviders/openAi/index.js:175:35)
+    at async streamChatWithWorkspace (/home/ec2-user/anything-llm/server/utils/chats/stream.js:248:20)
+    at async /home/ec2-user/anything-llm/server/endpoints/chat.js:62:9 {
+  status: 401,
+  headers: {
+    'alt-svc': 'h3=":443"; ma=86400',
+    'cf-cache-status': 'DYNAMIC',
+    'cf-ray': '90b1bd54df88c984-IAD',
+    connection: 'keep-alive',
+    'content-length': '414',
+    'content-type': 'application/json; charset=utf-8',
+    date: 'Sat, 01 Feb 2025 11:53:11 GMT',
+    server: 'cloudflare',
+    'set-cookie': '__cf_bm=1VwncOLHgRY5T7S5LAQVsAWADQ4.oW7XIx0wLbDt7pk-1738410791-1.0.1.1-alyKxV8RewkFZ3GR1t5e1xtEZITUtKGv.m5r1p3spZRrTQWGRRbNOOBs22gza_8RchSpT0crWjOt0d0VULHhfA; path=/; expires=Sat, 01-Feb-25 12:23:11 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=eS5qznIKEYxi8dOU5IhBUIP8kouKFheaaBAK.VFTi_k-1738410791192-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    vary: 'Origin',
+    'x-content-type-options': 'nosniff',
+    'x-request-id': 'req_1f6e6e4e5aa5e7e8de488dfc72917c65'
+  },
+  request_id: 'req_1f6e6e4e5aa5e7e8de488dfc72917c65',
+  error: {
+    message: 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************eQsA. You can find your API key at https://platform.openai.com/account/api-keys.',
+    type: 'invalid_request_error',
+    param: null,
+    code: 'invalid_api_key'
+  },
+  code: 'invalid_api_key',
+  param: null,
+  type: 'invalid_request_error'
+}
+OpenAI:listModels 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************eQsA. You can find your API key at https://platform.openai.com/account/api-keys.

@@ -1,0 +1,60 @@
+{
+  "numStartups": 2,
+  "customApiKeyResponses": {
+    "approved": [
+      "Ql1nAWLXrbw-e5p4sAAA"
+    ],
+    "rejected": []
+  },
+  "userID": "0c9877ebd6e68f0cb2e981085ee2979374205153c0e21e3cff7bb49b4a7e1603",
+  "oauthAccount": {
+    "accountUuid": "9c2ac834-3f79-4179-87cd-e888aa7e84a9",
+    "emailAddress": "tanner@voutour.com",
+    "organizationUuid": "8d32e823-3f1a-42ef-a376-ef2dd040382d",
+    "organizationRole": "admin",
+    "workspaceRole": "workspace_developer"
+  },
+  "primaryApiKey": "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",
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "0.2.55",
+  "projects": {
+    "/home/ec2-user/anything-llm": {
+      "allowedTools": [
+        "Bash(cd /home/ec2-user/anything-llm/frontend && yarn build)",
+        "Bash(cd frontend && yarn build)",
+        "Bash(cp:*)",
+        "Bash(sudo chown:*)",
+        "Bash(sudo yarn build:*)"
+      ],
+      "history": [
+        "If you kill all node it will kill this claude instance",
+        "nothing has changed on the server",
+        "i need you to impliment all of the following [Pasted text +198 lines] ",
+        "when i try to start the server i get [Pasted text +38 lines] "
+      ],
+      "dontCrawlDirectory": false,
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "exampleFiles": [
+        "updateENV.js",
+        "systemSettings.js",
+        "system.js",
+        "index.jsx",
+        "stream.js"
+      ],
+      "exampleFilesGeneratedAt": 1743032556183,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 1.1133505,
+      "lastAPIDuration": 307239,
+      "lastDuration": 1056837,
+      "lastLinesAdded": 1,
+      "lastLinesRemoved": 1,
+      "lastSessionId": "4760f8a3-0477-4c68-b400-c28365fabf60"
+    }
+  },
+  "lastReleaseNotesSeen": "0.2.55"
+}

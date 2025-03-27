@@ -1,0 +1,26 @@
+{
+  "last_reminder": 0,
+  "cached_at": 1737493003280,
+  "version": "5.3.1",
+  "cli_path": "/home/ec2-user/anything-llm/server/node_modules/prisma/build/index.js",
+  "output": {
+    "product": "prisma",
+    "previous_version": "5.3.1",
+    "checkpoint_version": 4,
+    "local_timestamp_without_timezone": "2025-01-21T20:56:42Z",
+    "current_version": "6.2.1",
+    "current_release_date": 1736342779,
+    "client_event_id": "0738434f-a05b-445b-867d-47a36a08adff",
+    "current_download_url": "https://github.com/prisma/prisma",
+    "package": "prisma",
+    "release_tag": "latest",
+    "install_command": "npm install --save-dev prisma",
+    "schema_providers": [],
+    "schema_preview_features": [],
+    "schema_generators_providers": [],
+    "current_changelog_url": "https://github.com/prisma/prisma",
+    "outdated": true,
+    "project_website": "https://prisma.io",
+    "alerts": []
+  }
+}

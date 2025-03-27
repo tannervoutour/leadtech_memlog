@@ -1,0 +1,901 @@
+   error: 429 Rate limit reached for gpt-4o in organization org-FKSQ4Lq8GUanZxd5zZIyAnja on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. RetryError: 429 Rate limit reached for gpt-4o in organization org-FKSQ4Lq8GUanZxd5zZIyAnja on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more.
+    at OpenAIProvider.complete (/home/ec2-user/anything-llm/server/utils/agents/aibitat/providers/openai.js:126:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AIbitat.handleExecution (/home/ec2-user/anything-llm/server/utils/agents/aibitat/index.js:596:24)
+    at async AIbitat.handleExecution (/home/ec2-user/anything-llm/server/utils/agents/aibitat/index.js:636:14)
+    at async AIbitat.reply (/home/ec2-user/anything-llm/server/utils/agents/aibitat/index.js:578:21)
+    at async AIbitat.chat (/home/ec2-user/anything-llm/server/utils/agents/aibitat/index.js:374:15)
+    at async AIbitat.continue (/home/ec2-user/anything-llm/server/utils/agents/aibitat/index.js:688:7)
+    at async EventEmitter.<anonymous> (/home/ec2-user/anything-llm/server/utils/agents/aibitat/plugins/websocket.js:106:11)
+   retrying in 60 seconds...
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+prepareWorkspaceChatsForExport is not a function TypeError: prepareWorkspaceChatsForExport is not a function
+    at /home/ec2-user/anything-llm/server/endpoints/api/system/index.js:195:29
+    at Layer.handle [as handle_request] (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/anything-llm/server/node_modules/express/lib/router/route.js:149:13)
+    at validApiKey (/home/ec2-user/anything-llm/server/utils/middleware/validApiKey.js:24:3)
+Namespace by that name does not exist.
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+
+Invalid `prisma.workspace_threads.create()` invocation in
+/home/ec2-user/anything-llm/server/models/workspaceThread.js:36:53
+
+  33 
+  34 new: async function (workspace, userId = null, data = {}) {
+  35   try {
+→ 36     const thread = await prisma.workspace_threads.create(
+Unique constraint failed on the fields: (`slug`)
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+OpenAI:listModels 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************eQsA. You can find your API key at https://platform.openai.com/account/api-keys.
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+Namespace by that name does not exist.
+FAILED TO CREATE USER. Username must only contain lowercase letters, numbers, underscores, and hyphens with no spaces
+FAILED TO CREATE USER. Username must only contain lowercase letters, numbers, underscores, and hyphens with no spaces
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1800:21)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EACCES',
+  errno: -13,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1817:16)
+    at listenInCluster (node:net:1865:12)
+    at Server.listen (node:net:1953:7)
+    at Function.serverListen [as listen] (/home/ec2-user/anything-llm/server/node_modules/@mintplex-labs/express-ws/dist/index.js:91:21)
+    at bootHTTP (/home/ec2-user/anything-llm/server/utils/boot/index.js:58:6)
+    at Object.<anonymous> (/home/ec2-user/anything-llm/server/index.js:132:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}

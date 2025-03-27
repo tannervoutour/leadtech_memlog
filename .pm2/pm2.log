@@ -1,0 +1,358 @@
+2025-01-28T18:26:18: PM2 log: ===============================================================================
+2025-01-28T18:26:18: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-01-28T18:26:18: PM2 log: Time                 : Tue Jan 28 2025 18:26:18 GMT+0000 (Coordinated Universal Time)
+2025-01-28T18:26:18: PM2 log: PM2 version          : 5.4.3
+2025-01-28T18:26:18: PM2 log: Node.js version      : 18.20.6
+2025-01-28T18:26:18: PM2 log: Current arch         : x64
+2025-01-28T18:26:18: PM2 log: PM2 home             : /home/ec2-user/.pm2
+2025-01-28T18:26:18: PM2 log: PM2 PID file         : /home/ec2-user/.pm2/pm2.pid
+2025-01-28T18:26:18: PM2 log: RPC socket file      : /home/ec2-user/.pm2/rpc.sock
+2025-01-28T18:26:18: PM2 log: BUS socket file      : /home/ec2-user/.pm2/pub.sock
+2025-01-28T18:26:18: PM2 log: Application log path : /home/ec2-user/.pm2/logs
+2025-01-28T18:26:18: PM2 log: Worker Interval      : 30000
+2025-01-28T18:26:18: PM2 log: Process dump file    : /home/ec2-user/.pm2/dump.pm2
+2025-01-28T18:26:18: PM2 log: Concurrent actions   : 2
+2025-01-28T18:26:18: PM2 log: SIGTERM timeout      : 1600
+2025-01-28T18:26:18: PM2 log: ===============================================================================
+2025-01-28T18:26:18: PM2 log: App [server:0] starting in -fork mode-
+2025-01-28T18:26:18: PM2 log: App [server:0] online
+2025-01-28T18:26:27: PM2 log: App [collector:1] starting in -fork mode-
+2025-01-28T18:26:27: PM2 log: App [collector:1] online
+2025-02-01T00:35:28: PM2 log: App [collector:1] exited with code [0] via signal [SIGTERM]
+2025-02-01T00:35:28: PM2 log: App [collector:1] starting in -fork mode-
+2025-02-01T00:35:29: PM2 log: App [collector:1] online
+2025-02-01T00:35:29: PM2 log: App [server:0] exited with code [0] via signal [SIGTERM]
+2025-02-01T00:35:29: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:29: PM2 log: App [server:0] online
+2025-02-01T00:35:32: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:32: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:32: PM2 log: App [server:0] online
+2025-02-01T00:35:34: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:34: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:34: PM2 log: App [server:0] online
+2025-02-01T00:35:37: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:37: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:37: PM2 log: App [server:0] online
+2025-02-01T00:35:37: PM2 log: App [collector:1] exited with code [0] via signal [SIGTERM]
+2025-02-01T00:35:37: PM2 log: App [collector:1] starting in -fork mode-
+2025-02-01T00:35:37: PM2 log: App [collector:1] online
+2025-02-01T00:35:37: PM2 log: App [server:0] exited with code [0] via signal [SIGTERM]
+2025-02-01T00:35:37: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:37: PM2 log: App [server:0] online
+2025-02-01T00:35:40: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:40: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:40: PM2 log: App [server:0] online
+2025-02-01T00:35:43: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:43: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:43: PM2 log: App [server:0] online
+2025-02-01T00:35:46: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:46: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:46: PM2 log: App [server:0] online
+2025-02-01T00:35:49: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:49: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:49: PM2 log: App [server:0] online
+2025-02-01T00:35:52: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:52: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:52: PM2 log: App [server:0] online
+2025-02-01T00:35:55: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:55: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:55: PM2 log: App [server:0] online
+2025-02-01T00:35:58: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:35:58: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:35:58: PM2 log: App [server:0] online
+2025-02-01T00:36:00: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:00: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:00: PM2 log: App [server:0] online
+2025-02-01T00:36:04: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:04: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:04: PM2 log: App [server:0] online
+2025-02-01T00:36:07: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:07: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:07: PM2 log: App [server:0] online
+2025-02-01T00:36:09: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:09: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:09: PM2 log: App [server:0] online
+2025-02-01T00:36:12: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:12: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:12: PM2 log: App [server:0] online
+2025-02-01T00:36:15: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:15: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:15: PM2 log: App [server:0] online
+2025-02-01T00:36:17: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:17: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:17: PM2 log: App [server:0] online
+2025-02-01T00:36:20: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:20: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:20: PM2 log: App [server:0] online
+2025-02-01T00:36:22: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:22: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:22: PM2 log: App [server:0] online
+2025-02-01T00:36:25: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:25: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:25: PM2 log: App [server:0] online
+2025-02-01T00:36:28: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:28: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:28: PM2 log: App [server:0] online
+2025-02-01T00:36:31: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:31: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:31: PM2 log: App [server:0] online
+2025-02-01T00:36:33: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:33: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:33: PM2 log: App [server:0] online
+2025-02-01T00:36:36: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:36: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:36: PM2 log: App [server:0] online
+2025-02-01T00:36:38: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:38: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:38: PM2 log: App [server:0] online
+2025-02-01T00:36:40: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:40: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:40: PM2 log: App [server:0] online
+2025-02-01T00:36:43: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:43: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:43: PM2 log: App [server:0] online
+2025-02-01T00:36:46: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:46: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:46: PM2 log: App [server:0] online
+2025-02-01T00:36:48: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:48: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:48: PM2 log: App [server:0] online
+2025-02-01T00:36:52: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:52: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:52: PM2 log: App [server:0] online
+2025-02-01T00:36:54: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:54: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:54: PM2 log: App [server:0] online
+2025-02-01T00:36:56: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:56: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:56: PM2 log: App [server:0] online
+2025-02-01T00:36:59: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:36:59: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:36:59: PM2 log: App [server:0] online
+2025-02-01T00:37:02: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:37:02: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:37:02: PM2 log: App [server:0] online
+2025-02-01T00:37:05: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:37:05: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:37:05: PM2 log: App [server:0] online
+2025-02-01T00:37:08: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:37:08: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:37:08: PM2 log: App [server:0] online
+2025-02-01T00:37:10: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:37:10: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:37:10: PM2 log: App [server:0] online
+2025-02-01T00:37:13: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:37:13: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:37:13: PM2 log: App [server:0] online
+2025-02-01T00:37:16: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:37:16: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:37:16: PM2 log: App [server:0] online
+2025-02-01T00:37:18: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:37:18: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:37:18: PM2 log: App [server:0] online
+2025-02-01T00:37:21: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
+2025-02-01T00:37:21: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:37:21: PM2 log: App [server:0] online
+2025-02-01T00:38:36: PM2 log: App [server:0] exited with code [0] via signal [SIGKILL]
+2025-02-01T00:38:36: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:38:36: PM2 log: App [server:0] online
+2025-02-01T00:38:57: PM2 log: App [collector:1] exited with code [0] via signal [SIGTERM]
+2025-02-01T00:38:57: PM2 log: App [collector:1] starting in -fork mode-
+2025-02-01T00:38:57: PM2 log: App [collector:1] online
+2025-02-01T00:38:57: PM2 log: App [server:0] exited with code [0] via signal [SIGTERM]
+2025-02-01T00:38:57: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:38:57: PM2 log: App [server:0] online
+2025-02-01T00:39:02: PM2 log: App [collector:1] exited with code [0] via signal [SIGTERM]
+2025-02-01T00:39:02: PM2 log: App [collector:1] starting in -fork mode-
+2025-02-01T00:39:02: PM2 log: App [collector:1] online
+2025-02-01T00:39:02: PM2 log: App [server:0] exited with code [0] via signal [SIGTERM]
+2025-02-01T00:39:02: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:39:02: PM2 log: App [server:0] online
+2025-02-01T00:40:22: PM2 log: App [collector:1] exited with code [0] via signal [SIGKILL]
+2025-02-01T00:40:22: PM2 log: App [collector:1] starting in -fork mode-
+2025-02-01T00:40:22: PM2 log: App [collector:1] online
+2025-02-01T00:40:22: PM2 log: App [server:0] exited with code [0] via signal [SIGKILL]
+2025-02-01T00:40:22: PM2 log: App [server:0] starting in -fork mode-
+2025-02-01T00:40:22: PM2 log: App [server:0] online
+2025-02-01T00:42:14: PM2 log: Stopping app:server id:0
+2025-02-01T00:42:14: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+2025-02-01T00:42:14: PM2 log: pid=469861 msg=process killed
+2025-02-01T00:42:14: PM2 log: Stopping app:collector id:1
+2025-02-01T00:42:14: PM2 log: App [collector:1] exited with code [0] via signal [SIGINT]
+2025-02-01T00:42:14: PM2 log: pid=469860 msg=process killed
+2025-02-01T04:46:14: PM2 log: App [index:0] starting in -fork mode-
+2025-02-01T04:46:14: PM2 log: App [index:0] online
+2025-02-01T04:46:23: PM2 log: App [index:1] starting in -fork mode-
+2025-02-01T04:46:23: PM2 log: App [index:1] online
+2025-02-04T02:43:20: PM2 log: Stopping app:index id:0
+2025-02-04T02:43:20: PM2 log: Stopping app:index id:1
+2025-02-04T02:43:20: PM2 log: App [index:1] exited with code [0] via signal [SIGINT]
+2025-02-04T02:43:20: PM2 log: App [index:0] exited with code [0] via signal [SIGINT]
+2025-02-04T02:43:20: PM2 log: pid=483986 msg=process killed
+2025-02-04T02:43:20: PM2 log: pid=484011 msg=process killed
+2025-02-04T02:43:20: PM2 log: PM2 successfully stopped
+2025-02-04T02:46:58: PM2 log: ===============================================================================
+2025-02-04T02:46:58: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-02-04T02:46:58: PM2 log: Time                 : Tue Feb 04 2025 02:46:58 GMT+0000 (Coordinated Universal Time)
+2025-02-04T02:46:58: PM2 log: PM2 version          : 5.4.3
+2025-02-04T02:46:58: PM2 log: Node.js version      : 18.20.6
+2025-02-04T02:46:58: PM2 log: Current arch         : x64
+2025-02-04T02:46:58: PM2 log: PM2 home             : /home/ec2-user/.pm2
+2025-02-04T02:46:58: PM2 log: PM2 PID file         : /home/ec2-user/.pm2/pm2.pid
+2025-02-04T02:46:58: PM2 log: RPC socket file      : /home/ec2-user/.pm2/rpc.sock
+2025-02-04T02:46:58: PM2 log: BUS socket file      : /home/ec2-user/.pm2/pub.sock
+2025-02-04T02:46:58: PM2 log: Application log path : /home/ec2-user/.pm2/logs
+2025-02-04T02:46:58: PM2 log: Worker Interval      : 30000
+2025-02-04T02:46:58: PM2 log: Process dump file    : /home/ec2-user/.pm2/dump.pm2
+2025-02-04T02:46:58: PM2 log: Concurrent actions   : 2
+2025-02-04T02:46:58: PM2 log: SIGTERM timeout      : 1600
+2025-02-04T02:46:58: PM2 log: ===============================================================================
+2025-02-04T02:47:09: PM2 log: App [server:0] starting in -fork mode-
+2025-02-04T02:47:09: PM2 log: App [server:0] online
+2025-02-04T02:47:26: PM2 log: Stopping app:server id:0
+2025-02-04T02:47:26: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+2025-02-04T02:47:26: PM2 log: pid=708560 msg=process killed
+2025-02-04T02:47:26: PM2 log: PM2 successfully stopped
+2025-02-04T02:48:19: PM2 log: ===============================================================================
+2025-02-04T02:48:19: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-02-04T02:48:19: PM2 log: Time                 : Tue Feb 04 2025 02:48:19 GMT+0000 (Coordinated Universal Time)
+2025-02-04T02:48:19: PM2 log: PM2 version          : 5.4.3
+2025-02-04T02:48:19: PM2 log: Node.js version      : 18.20.6
+2025-02-04T02:48:19: PM2 log: Current arch         : x64
+2025-02-04T02:48:19: PM2 log: PM2 home             : /home/ec2-user/.pm2
+2025-02-04T02:48:19: PM2 log: PM2 PID file         : /home/ec2-user/.pm2/pm2.pid
+2025-02-04T02:48:19: PM2 log: RPC socket file      : /home/ec2-user/.pm2/rpc.sock
+2025-02-04T02:48:19: PM2 log: BUS socket file      : /home/ec2-user/.pm2/pub.sock
+2025-02-04T02:48:19: PM2 log: Application log path : /home/ec2-user/.pm2/logs
+2025-02-04T02:48:19: PM2 log: Worker Interval      : 30000
+2025-02-04T02:48:19: PM2 log: Process dump file    : /home/ec2-user/.pm2/dump.pm2
+2025-02-04T02:48:19: PM2 log: Concurrent actions   : 2
+2025-02-04T02:48:19: PM2 log: SIGTERM timeout      : 1600
+2025-02-04T02:48:19: PM2 log: ===============================================================================
+2025-02-04T02:48:19: PM2 log: App [server:0] starting in -fork mode-
+2025-02-04T02:48:19: PM2 log: App [server:0] online
+2025-02-04T02:48:27: PM2 log: Stopping app:server id:0
+2025-02-04T02:48:27: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+2025-02-04T02:48:27: PM2 log: pid=708728 msg=process killed
+2025-02-04T02:48:27: PM2 log: PM2 successfully stopped
+2025-02-04T02:48:49: PM2 log: ===============================================================================
+2025-02-04T02:48:49: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-02-04T02:48:49: PM2 log: Time                 : Tue Feb 04 2025 02:48:49 GMT+0000 (Coordinated Universal Time)
+2025-02-04T02:48:49: PM2 log: PM2 version          : 5.4.3
+2025-02-04T02:48:49: PM2 log: Node.js version      : 18.20.6
+2025-02-04T02:48:49: PM2 log: Current arch         : x64
+2025-02-04T02:48:49: PM2 log: PM2 home             : /home/ec2-user/.pm2
+2025-02-04T02:48:49: PM2 log: PM2 PID file         : /home/ec2-user/.pm2/pm2.pid
+2025-02-04T02:48:49: PM2 log: RPC socket file      : /home/ec2-user/.pm2/rpc.sock
+2025-02-04T02:48:49: PM2 log: BUS socket file      : /home/ec2-user/.pm2/pub.sock
+2025-02-04T02:48:49: PM2 log: Application log path : /home/ec2-user/.pm2/logs
+2025-02-04T02:48:49: PM2 log: Worker Interval      : 30000
+2025-02-04T02:48:49: PM2 log: Process dump file    : /home/ec2-user/.pm2/dump.pm2
+2025-02-04T02:48:49: PM2 log: Concurrent actions   : 2
+2025-02-04T02:48:49: PM2 log: SIGTERM timeout      : 1600
+2025-02-04T02:48:49: PM2 log: ===============================================================================
+2025-02-04T02:49:04: PM2 log: App [server:0] starting in -fork mode-
+2025-02-04T02:49:04: PM2 log: App [server:0] online
+2025-02-04T02:49:27: PM2 log: App [collector:1] starting in -fork mode-
+2025-02-04T02:49:27: PM2 log: App [collector:1] online
+2025-02-04T03:08:37: PM2 log: Stopping app:server id:0
+2025-02-04T03:08:37: PM2 log: Stopping app:collector id:1
+2025-02-04T03:08:37: PM2 log: App [collector:1] exited with code [0] via signal [SIGINT]
+2025-02-04T03:08:37: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+2025-02-04T03:08:37: PM2 log: pid=709036 msg=process killed
+2025-02-04T03:08:37: PM2 log: pid=709080 msg=process killed
+2025-02-04T03:08:37: PM2 log: PM2 successfully stopped
+2025-02-04T03:08:52: PM2 log: ===============================================================================
+2025-02-04T03:08:52: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-02-04T03:08:52: PM2 log: Time                 : Tue Feb 04 2025 03:08:52 GMT+0000 (Coordinated Universal Time)
+2025-02-04T03:08:52: PM2 log: PM2 version          : 5.4.3
+2025-02-04T03:08:52: PM2 log: Node.js version      : 18.20.6
+2025-02-04T03:08:52: PM2 log: Current arch         : x64
+2025-02-04T03:08:52: PM2 log: PM2 home             : /home/ec2-user/.pm2
+2025-02-04T03:08:52: PM2 log: PM2 PID file         : /home/ec2-user/.pm2/pm2.pid
+2025-02-04T03:08:52: PM2 log: RPC socket file      : /home/ec2-user/.pm2/rpc.sock
+2025-02-04T03:08:52: PM2 log: BUS socket file      : /home/ec2-user/.pm2/pub.sock
+2025-02-04T03:08:52: PM2 log: Application log path : /home/ec2-user/.pm2/logs
+2025-02-04T03:08:52: PM2 log: Worker Interval      : 30000
+2025-02-04T03:08:52: PM2 log: Process dump file    : /home/ec2-user/.pm2/dump.pm2
+2025-02-04T03:08:52: PM2 log: Concurrent actions   : 2
+2025-02-04T03:08:52: PM2 log: SIGTERM timeout      : 1600
+2025-02-04T03:08:52: PM2 log: ===============================================================================
+2025-02-04T18:03:23: PM2 log: App [server:0] starting in -fork mode-
+2025-02-04T18:03:23: PM2 log: App [server:0] online
+2025-02-04T18:03:24: PM2 log: App [collector:1] starting in -fork mode-
+2025-02-04T18:03:24: PM2 log: App [collector:1] online
+2025-02-07T20:01:51: PM2 log: Stopping app:server id:0
+2025-02-07T20:01:51: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+2025-02-07T20:01:51: PM2 log: pid=757644 msg=process killed
+2025-02-07T20:01:51: PM2 log: Stopping app:collector id:1
+2025-02-07T20:01:51: PM2 log: App [collector:1] exited with code [0] via signal [SIGINT]
+2025-02-07T20:01:51: PM2 log: pid=757664 msg=process killed
+2025-02-07T20:05:28: PM2 log: PM2 successfully stopped
+2025-02-07T20:06:32: PM2 log: ===============================================================================
+2025-02-07T20:06:32: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-02-07T20:06:32: PM2 log: Time                 : Fri Feb 07 2025 20:06:32 GMT+0000 (Coordinated Universal Time)
+2025-02-07T20:06:32: PM2 log: PM2 version          : 5.4.3
+2025-02-07T20:06:32: PM2 log: Node.js version      : 18.20.6
+2025-02-07T20:06:32: PM2 log: Current arch         : x64
+2025-02-07T20:06:32: PM2 log: PM2 home             : /home/ec2-user/.pm2
+2025-02-07T20:06:32: PM2 log: PM2 PID file         : /home/ec2-user/.pm2/pm2.pid
+2025-02-07T20:06:32: PM2 log: RPC socket file      : /home/ec2-user/.pm2/rpc.sock
+2025-02-07T20:06:32: PM2 log: BUS socket file      : /home/ec2-user/.pm2/pub.sock
+2025-02-07T20:06:32: PM2 log: Application log path : /home/ec2-user/.pm2/logs
+2025-02-07T20:06:32: PM2 log: Worker Interval      : 30000
+2025-02-07T20:06:32: PM2 log: Process dump file    : /home/ec2-user/.pm2/dump.pm2
+2025-02-07T20:06:32: PM2 log: Concurrent actions   : 2
+2025-02-07T20:06:32: PM2 log: SIGTERM timeout      : 1600
+2025-02-07T20:06:32: PM2 log: ===============================================================================
+2025-02-07T20:06:32: PM2 log: PM2 successfully stopped
+2025-02-07T20:20:31: PM2 log: ===============================================================================
+2025-02-07T20:20:31: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2025-02-07T20:20:31: PM2 log: Time                 : Fri Feb 07 2025 20:20:31 GMT+0000 (Coordinated Universal Time)
+2025-02-07T20:20:31: PM2 log: PM2 version          : 5.4.3
+2025-02-07T20:20:31: PM2 log: Node.js version      : 18.20.6
+2025-02-07T20:20:31: PM2 log: Current arch         : x64
+2025-02-07T20:20:31: PM2 log: PM2 home             : /home/ec2-user/.pm2
+2025-02-07T20:20:31: PM2 log: PM2 PID file         : /home/ec2-user/.pm2/pm2.pid
+2025-02-07T20:20:31: PM2 log: RPC socket file      : /home/ec2-user/.pm2/rpc.sock
+2025-02-07T20:20:31: PM2 log: BUS socket file      : /home/ec2-user/.pm2/pub.sock
+2025-02-07T20:20:31: PM2 log: Application log path : /home/ec2-user/.pm2/logs
+2025-02-07T20:20:31: PM2 log: Worker Interval      : 30000
+2025-02-07T20:20:31: PM2 log: Process dump file    : /home/ec2-user/.pm2/dump.pm2
+2025-02-07T20:20:31: PM2 log: Concurrent actions   : 2
+2025-02-07T20:20:31: PM2 log: SIGTERM timeout      : 1600
+2025-02-07T20:20:31: PM2 log: ===============================================================================
+2025-02-07T20:20:31: PM2 log: App [server:0] starting in -fork mode-
+2025-02-07T20:20:31: PM2 log: App [server:0] online
+2025-02-07T20:20:39: PM2 log: App [collector:1] starting in -fork mode-
+2025-02-07T20:20:39: PM2 log: App [collector:1] online
+2025-03-15T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-15T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-16T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-16T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-17T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-17T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-18T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-18T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-19T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-19T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-20T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-20T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-21T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-21T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-22T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-22T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-23T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-23T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-24T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-24T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-25T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-25T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-26T20:20:32: PM2 log: [PM2] This PM2 is not UP TO DATE
+2025-03-26T20:20:32: PM2 log: [PM2] Upgrade to version 6.0.5
+2025-03-26T23:36:54: PM2 log: Stopping app:server id:0
+2025-03-26T23:36:54: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+2025-03-26T23:36:54: PM2 log: pid=995668 msg=process killed
+2025-03-26T23:36:54: PM2 log: Stopping app:collector id:1
+2025-03-26T23:36:54: PM2 log: App [collector:1] exited with code [0] via signal [SIGINT]
+2025-03-26T23:36:54: PM2 log: pid=995757 msg=process killed

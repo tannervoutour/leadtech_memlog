@@ -1,0 +1,20 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v18.20.6
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ec2-user/anything-llm/server/.npmrc
+5 silly config load:file:/home/ec2-user/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm view @anthropic-ai/claude-code@latest version
+8 verbose argv "view" "@anthropic-ai/claude-code@latest" "version"
+9 verbose logfile logs-max:10 dir:/home/ec2-user/.npm/_logs/2025-03-27T00_04_37_614Z-
+10 verbose logfile /home/ec2-user/.npm/_logs/2025-03-27T00_04_37_614Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code 168ms (cache updated)
+14 verbose cwd /home/ec2-user/anything-llm/server/public
+15 verbose os Linux 6.1.119-129.201.amzn2023.x86_64
+16 verbose node v18.20.6
+17 verbose npm  v10.8.2
+18 verbose exit 0
+19 info ok
