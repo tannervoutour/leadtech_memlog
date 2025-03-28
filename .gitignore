@@ -1,2 +1,72 @@
 .cache/
 .cache/puppeteer/
+.cache/temp_repo/
+.cache/yarn/
+
+# NPM logs and cache files
+.npm/_logs/
+.npm/_cacache/
+.npm/_npx/
+
+# Claude and system files
+.claude/
+.lesshst
+.ssh/
+.bash_history
+.pm2/
+clean_repo/
+leadtech_memlog/
+temp_bare.git/
+conversation_memories.json
+
+# AnythingLLM Document Storage & Vector Database Files
+
+# Database Files
+server/storage/anythingllm.db
+server/storage/anythingllm.db-journal
+
+# Document Storage - all uploaded/processed documents
+server/storage/documents/
+server/storage/documents/**/*.json
+
+# Vector Embeddings & Vector Databases
+server/storage/vector-cache/
+server/storage/vector-cache/**/*.json
+server/storage/lancedb/
+server/storage/lancedb/**/*
+server/storage/chroma/
+server/storage/weaviate/
+server/storage/qdrant/
+server/storage/pinecone/
+
+# Downloaded Models
+server/storage/models/downloaded/
+server/storage/models/downloaded/**/*.gguf
+server/storage/models/Xenova/
+server/storage/models/tesseract/
+
+# Temporary Files and Processing Directories
+server/storage/tmp/
+server/storage/tmp/**/*
+collector/storage/tmp/
+collector/storage/tmp/**/*
+collector/hotdir/*
+!collector/hotdir/__HOTDIR__.md
+
+# Collector Files
+collector/uploads/
+collector/uploads/**/*
+
+# OCR and Audio Processing
+**/tesseract-ocr-*
+**/whisper-*
+
+# User-specific files
+server/storage/assets/logo*
+server/storage/assets/pfp*
+
+# Environment and sensitive information
+.env
+.env.local
+**/comkey/*.pem
+server/storage/comkey/*.pem
