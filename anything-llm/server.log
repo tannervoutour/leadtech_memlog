@@ -1,0 +1,10 @@
+nohup: ignoring input
+[36m[backend][0m [32minfo[39m: [36m[EncryptionManager][0m Loaded existing key & salt for encrypting arbitrary data.
+[36m[backend][0m [32minfo[39m: [32m[TELEMETRY ENABLED][0m Anonymous Telemetry enabled. Telemetry helps Mintplex Labs Inc improve AnythingLLM.
+[36m[backend][0m [32minfo[39m: prisma:info Starting a sqlite pool with 3 connections.
+[36m[backend][0m [32minfo[39m: [32m[TELEMETRY SENT][0m {"event":"server_boot","distinctId":"0dde72ee-da44-4e41-9522-34f4bb38c40b","properties":{"commit":"7e10205df61c92e155f4bcdbc7dbd7a38d3c182b","runtime":"production"}}
+[36m[backend][0m [32minfo[39m: [36m[CommunicationKey][0m RSA key pair generated for signed payloads within AnythingLLM services.
+[36m[backend][0m [32minfo[39m: [36m[EncryptionManager][0m Loaded existing key & salt for encrypting arbitrary data.
+[36m[backend][0m [32minfo[39m: Primary server in HTTP mode listening on port 3001
+[36m[backend][0m [32minfo[39m: [36m[BackgroundWorkerService][0m Feature is not enabled and will not be started.
+[36m[backend][0m [32minfo[39m: [36m[MetaGenerator][0m fetching custom meta tag settings...
