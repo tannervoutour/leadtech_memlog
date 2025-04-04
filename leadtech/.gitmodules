@@ -1,0 +1,3 @@
+[submodule "anything-llm"]
+	path = anything-llm
+	url = git@github.com:tannervoutour/anything-llm-custom.git

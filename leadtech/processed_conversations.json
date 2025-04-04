@@ -1,0 +1,39 @@
+{
+  "processed": [
+    {
+      "workspaceId": "54",
+      "thread_id": "164",
+      "lastProcessedAt": "2025-03-26T15:42:15",
+      "lastUserAIPair": "User: How does the folder operate?\n\nAssistant: The folder operates by receiving laundry items onto its inclined conveyor from an ironer. The electronic system, using sensors, determines the item's length and width range. The \"Length\" sensor helps determine the folding moment based on length and speed, while the \"Width range\" sensor couples adjacent lanes when obstructed, forming a wide lane from two narrow ones. If the item is too long or short, or if an unfolded passage is program-defined, belt conveyors transport the item directly to the outfeed table. Additionally, the control unit allows for program selection to define the operating process, and customer-specific programs can be entered on-site.",
+      "lastChunkConversation": "User: How does the folder operate?\n\nAssistant: The folder operates by receiving laundry items onto its inclined conveyor from an ironer. The electronic system, using sensors, determines the item's length and width range. The \"Length\" sensor helps determine the folding moment based on length and speed, while the \"Width range\" sensor couples adjacent lanes when obstructed, forming a wide lane from two narrow ones. If the item is too long or short, or if an unfolded passage is program-defined, belt conveyors transport the item directly to the outfeed table. Additionally, the control unit allows for program selection to define the operating process, and customer-specific programs can be entered on-site."
+    },
+    {
+      "workspaceId": "50",
+      "thread_id": "default",
+      "lastProcessedAt": "2025-03-26T18:06:23",
+      "lastUserAIPair": "User: Please create a memory that feeder 3 should have the pit open at all times\n\nAssistant: I've created a memory for \"feeder 3\" to have the pit open at all times. If there are any additional details or modifications needed, please let me know!",
+      "lastChunkConversation": "User: Please create a memory that feeder 3 should have the pit open at all times\n\nAssistant: I've created a memory for \"feeder 3\" to have the pit open at all times. If there are any additional details or modifications needed, please let me know!"
+    },
+    {
+      "workspaceId": "61",
+      "thread_id": "default",
+      "lastProcessedAt": "2025-03-26T16:13:08",
+      "lastUserAIPair": "User: Tell me about thye driers\n\nAssistant: The Dryer PowerDry unit is a dedicated machine designed for drying pre-drained laundry items like cotton, synthetic fibers, and blended fabrics. It can operate in both automatic and semi-automatic modes, cycling through loading, drying, cooling, and crease protection steps. The unit uses gas, hot oil, or steam for controlled heating during the drying phase and incorporates safety features such as an emergency stop button and a main switch for immediate shutdown. Optional features include a Passive Automatic Lint Separation system and an extinguishing device for fire risk. The machine's control system allows for monitoring and adjusting process parameters, ensuring efficient and safe operation.",
+      "lastChunkConversation": "User: Tell me about thye driers\n\nAssistant: The Dryer PowerDry unit is a dedicated machine designed for drying pre-drained laundry items like cotton, synthetic fibers, and blended fabrics. It can operate in both automatic and semi-automatic modes, cycling through loading, drying, cooling, and crease protection steps. The unit uses gas, hot oil, or steam for controlled heating during the drying phase and incorporates safety features such as an emergency stop button and a main switch for immediate shutdown. Optional features include a Passive Automatic Lint Separation system and an extinguishing device for fire risk. The machine's control system allows for monitoring and adjusting process parameters, ensuring efficient and safe operation."
+    },
+    {
+      "workspaceId": "54",
+      "thread_id": "default",
+      "lastProcessedAt": "2025-03-26T16:12:47",
+      "lastUserAIPair": "User: tell me about the driers\n\nAssistant: Could you please provide more context or specify what type of \"driers\" you are referring to? Are you asking about clothes dryers, paint driers, or something else? This will help me give you a more accurate answer.",
+      "lastChunkConversation": "User: tell me about the driers\n\nAssistant: Could you please provide more context or specify what type of \"driers\" you are referring to? Are you asking about clothes dryers, paint driers, or something else? This will help me give you a more accurate answer."
+    },
+    {
+      "workspaceId": "56",
+      "thread_id": "default",
+      "lastProcessedAt": "2025-03-26T16:07:28",
+      "lastUserAIPair": "User: ah\n\nAssistant: If you have any more questions or need further clarification, feel free to ask!",
+      "lastChunkConversation": "User: ah\n\nAssistant: If you have any more questions or need further clarification, feel free to ask!"
+    }
+  ]
+}
